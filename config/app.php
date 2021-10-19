@@ -54,6 +54,8 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
+    // 'asset_url' => '/',
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
@@ -159,6 +161,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\TenancyServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
     ],
 

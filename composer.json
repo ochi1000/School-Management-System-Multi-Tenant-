@@ -14,7 +14,8 @@
         "hashids/hashids": "^4.1.0",
         "laravel/framework": "^8.40",
         "laravel/tinker": "^2.5",
-        "laravel/ui": "^3.0"
+        "laravel/ui": "^3.0",
+        "stancl/tenancy": "^3.4"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.8",
